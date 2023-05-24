@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="tableRow_onClick">
+
+    <TextView
+        android:id="@+id/txtNombre"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:text="TextView"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txtTelefono"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:text="TextView"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txtDireccion"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:text="TextView"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:text="TextView"
+        android:textSize="14sp" />
+</TableRow>
